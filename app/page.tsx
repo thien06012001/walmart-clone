@@ -2,8 +2,8 @@ import GridOption from "@/components/GridOption";
 
 export default function Home() {
   return (
-    <main>
-      <div>
+    <main className="flex-1">
+      <div className="grid grid-cols-1 grid-flow-row-dense md:grid-cols-4 gap-5 m-5">
         <GridOption
           title="Sweet gift for less"
           image="https://links.papareact.com/1dy"
